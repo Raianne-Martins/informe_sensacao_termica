@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/index.css">
+    <script src="/static/index.js"></script>
+
+    <title>Tá frio ou tá calor?</title>
+    <style>
+       
+    </style>
+</head>
+<body>
+    <h1>Selecione uma cidade</h1>
+    
+    <div id="pesquisa">
+        <select id="cidade">
+            <option value="">Selecione uma cidade</option>
+        </select>
+        <button onclick="buscarClima()">Buscar</button>
+    </div>
+
+    <div id="error" class="error"></div>
+    
+    <div id="resultado" class="weather-card" style="display: none;">
+        <h2 id="cidade-nome"></h2>
+        <p>Temperatura: <span id="temperatura"></span>°C</p>
+        <p>Sensação Térmica: <span id="sensacao-termica"></span>°C</p>
+        <p>Umidade: <span id="umidade"></span>%</p>
+        <p>Precipitação: <span id="precipitacao"></span> mm</p>
+        <p>Última atualização: <span id="data"></span></p>
+        <div id="sensation-info" class="sensation-info"></div>
+    </div>
+
+
+</body>
+</html>

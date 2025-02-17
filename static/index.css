@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    transition: background 1s ease-in-out;
+    background-size: cover;
+    background-position: center;
+    background-color: #d4edda;
+}
+.weather-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    background-color: rgba(248, 249, 250, 0.8); /* Light gray with transparency */
+    text-align: center;
+}
+.error {
+    color: red;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    background-color: #ffe6e6;
+    display: none;
+}
+select, button {
+    padding: 8px;
+    margin: 5px;
+    font-size: 16px;
+}
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.sensation-info {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+.hot {
+    background-color: #ffe6e6;
+    color: #d63939;
+}
+.warm {
+    background-color: #fff3cd;
+    color: #856404;
+}
+.comfortable {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+#pesquisa {
+display:flex;
+align-items: center;
+justify-content: center;
+margin-left: auto;
+margin-right: auto;
+width: 40%;
+text-align: center;
+}
+
+#pesquisa select, #pesquisa button {
+    margin: 10px 5px; 
+    padding: 5px;
+}
+
+.bg-cold {
+    background: linear-gradient(120deg, #a8e6cf, #dcedc1);
+    background-size: cover;
+    background-position: center;
+    transition: background 0.5s ease-in-out;
+}
+
+.bg-warm {
+    background: linear-gradient(120deg, #ffd180, #ffab40);
+    background-size: cover;
+    background-position: center;
+    transition: background 0.5s ease-in-out;
+}
+
+.bg-hot {
+    background: linear-gradient(120deg, #ff8a80, #ff5252);
+    background-size: cover ;
+    background-position: center;
+    transition: background 0.5s ease-in-out;
+}
+
+.bg-comfortable {
+    background-color: #a3d8a3; /* Change to your preferred shade of green */
+    background-size: cover ;
+    background-position: center;
+    transition: background 0.5s ease-in-out;
+}
