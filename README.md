@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Tá frio ou tá calor?
 
 Essa aplicação tem como o intuito auxiliar o usuário, ao sair para diferentes locais a se preparem para as condições climáticas das cidades que frequentam. 
@@ -12,3 +13,7 @@ Ao acessar a aplicação, basta selecionar a cidade que deseja a informação. O
 # Código- Fonte
 
 Este projeto é um *WIP*
+=======
+# weather_data_analyser
+Tá frio ou tá calor? A aplicação informa a sensação térmica para algumas cidades
+>>>>>>> 9cfa527142fc0aaf67b76919fd57f23c1428faa3
