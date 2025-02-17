@@ -1,7 +1,7 @@
 # Tá frio ou tá calor?
 
-Essa aplicação tem como o intuito auxiliar o usuário, ao sair para diferentes locais a se preparem para as condições climáticas das cidades que frequentam. 
-O usuário que deseja usar, basta atualizar as cidades que deseja juntamento com os dados geográficos no arquivo cities.py.
+Essa aplicação tem como o intuito auxiliar o usuário, ao sair para diferentes locais a se prepararem para as condições climáticas das cidades que frequentam. 
+O usuário que deseja usar, basta atualizar as cidades que deseja juntamente com os dados geográficos no arquivo cities.py.
 Ao inves de temperatura (ºC) a aplicação informa a sensação térmica, que está relacionada com temperatura (ºC) e umidade relativa do ar (%). A conversão da API Open-Meteo (que informa a temperatura em Fahrenheit - ºF) está no arquivo app.py.
 
 # Informações
