@@ -9,6 +9,62 @@ Ao acessar a aplicação, basta selecionar a cidade que deseja a informação. O
 
 # Modelagem de dados
 
+![informe_clima_1](https://github.com/user-attachments/assets/2f0a5a2d-66d1-4df8-8e57-04ef7816f88b)
+
+# Como utilizar
+
+1. Clone o repositório:
+
+```bash
+
+git clone https://github.com/Raianne-Martins/informe_sensacao_termica.git
+```
+
+2. Acesse a pasta do arquivo:
+
+```bash
+
+cd src
+```
+
+3. Crie um ambiente virtual na pasta do projeto :
+
+```bash
+python -m venv venv
+```
+
+ Para ativar no Windows <br>
+```bash
+venv\Scripts\activate
+```
+
+Para ativar no MacOS e Linux <br>
+```bash
+source venv/bin/activate
+```
+
+4. Instale o Flask:
+```bash
+pip install flask
+```
+
+5. Instalar as dependências:
+```bash
+pip install -r requirements.txt
+```
+
+6. Rode o flask:
+```bash
+flask run
+```
+
+Após terminar de usar a aplicação, desative o ambiente. <br>
+
+7. Desativar o venv:
+   
+```bash
+deactivate
+```
 # Código- Fonte
 
 <li><a href="README.md"> Código Fonte</a></li>
